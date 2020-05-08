@@ -11,5 +11,5 @@ Keep in mind that specific variations of an item are not taken into account, jus
 ### How to use
 
 ```
-docker run -v $(pwd):/app ac-catalog python3 main.py samples/sample.mp4
+docker run -v $(pwd):/app stephwag/acnh-catalog python3 main.py samples/sample.mp4
 ```
