@@ -141,3 +141,5 @@ villagerdb/
 .DS_Store
 catalog.txt
 catalog.ndjson
+videos/
+catalogs/

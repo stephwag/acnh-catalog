@@ -17,4 +17,5 @@ COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 RUN python3 -m nltk.downloader popular
 
+COPY utils.py /app/utils.py
 COPY main.py /app/main.py

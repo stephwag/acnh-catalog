@@ -13,3 +13,23 @@ Keep in mind that specific variations of an item are not taken into account, jus
 ```
 docker run -v $(pwd):/app stephwag/acnh-catalog python3 main.py samples/sample.mp4
 ```
+
+### Examples
+
+Get only orderable items
+
+```
+python3 main.py samples/sample.mp4 --orderable
+```
+
+Get only accessories and dresses that are also orderable
+
+```
+python3 main.py samples/sample.mp4 --orderable --categories accessories dresses
+```
+
+Exclude fossils
+
+```
+python3 main.py samples/sample.mp4 --categories_exclude fossils
+```
